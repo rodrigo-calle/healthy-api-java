@@ -17,6 +17,8 @@ public class Transaction {
     String state;
     String date;
     String hour;
+    String typePyament;
+    String shop;
 
     public Long getUserCode() {
         return user_code;
@@ -64,5 +66,21 @@ public class Transaction {
 
     public void setHour(String hour) {
         this.hour = hour;
+    }
+
+    public String getTypePyament() {
+        return typePyament;
+    }
+
+    public void setTypePyament(String typePyament) {
+        this.typePyament = typePyament;
+    }
+
+    public String getShop() {
+        return shop;
+    }
+
+    public void setShop(String shop) {
+        this.shop = shop;
     }
 }
